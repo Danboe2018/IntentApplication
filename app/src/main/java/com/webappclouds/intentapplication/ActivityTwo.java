@@ -2,6 +2,7 @@ package com.webappclouds.intentapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +25,7 @@ public class ActivityTwo extends AppCompatActivity {
         }
     }
 
-    public void onClick2(){
+    public void onClick2(View view){
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
